@@ -4,6 +4,7 @@ import { Layout, theme, Row, Col, Button } from "antd";
 import { useNavigate } from "react-router-dom";
 //import MoviesList from "../Components/MoviesList";
 import AppRoutes from "../Components/Routes/index";
+import MoviesList from "../Components/MoviesList";
 const { Header, Content, Footer } = Layout;
 
 const AppLayout = () => {
@@ -48,6 +49,7 @@ const AppLayout = () => {
             background: colorBgContainer,
           }}
         >
+          <MoviesList />
           <AppRoutes />
 
           {/* <MoviesList /> */}
