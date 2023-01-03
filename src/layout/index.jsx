@@ -47,18 +47,14 @@ const AppLayout = () => {
             background: colorBgContainer,
           }}
         >
-          navigateToHome();
           <AppRoutes />
-          {/* <MoviesList /> */}
         </div>
       </Content>
       <Footer
         style={{
           textAlign: "center",
         }}
-      >
-        {/* Ant Design ©2018 Created by Ant UED */}
-      </Footer>
+      ></Footer>
     </Layout>
   );
 };
