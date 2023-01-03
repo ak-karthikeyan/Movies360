@@ -1,9 +1,17 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import AdminLogin from "../AdminLogin";
 import AdminPage from "../AdminPage";
 import MoviesList from "../MoviesList";
 
 function AppRoutes() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    const navigateToHome = () => {
+      navigate("/");
+    };
+    navigateToHome();
+  }, []);
   return (
     <Routes>
       <Route path="/" element={<MoviesList />}></Route>
