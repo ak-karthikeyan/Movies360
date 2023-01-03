@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Movies360/static/css/main.3ac23d57.css",
+    "main.js": "/Movies360/static/js/main.369ae5be.js",
+    "static/js/787.c8bd45f4.chunk.js": "/Movies360/static/js/787.c8bd45f4.chunk.js",
+    "index.html": "/Movies360/index.html",
+    "main.3ac23d57.css.map": "/Movies360/static/css/main.3ac23d57.css.map",
+    "main.369ae5be.js.map": "/Movies360/static/js/main.369ae5be.js.map",
+    "787.c8bd45f4.chunk.js.map": "/Movies360/static/js/787.c8bd45f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ac23d57.css",
+    "static/js/main.369ae5be.js"
+  ]
+}
